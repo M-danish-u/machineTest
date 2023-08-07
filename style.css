@@ -1,0 +1,100 @@
+.container_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task_container {
+  width: 700px;
+  height: 800px;
+  background-color:;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.top_box {
+  width: 500px;
+  height: 70px;
+  border: solid 1px rgb(162, 167, 162);
+  border-radius: 5px;
+  padding: 20px;
+  display:flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.first_sec{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.price_sec{
+    line-height: normal;
+}
+.price{
+    font-weight: 600;
+
+}
+.Total{
+    display: flex;
+    flex-direction: row;
+    width: 544px;
+    justify-content: space-between;
+}
+.Shipping{
+    color: #1F8A70;
+}
+.add_button{
+width: 540px;
+padding: 12px;
+background-color:#1F8A70; 
+color: aliceblue;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+}
+.size_color{
+    font-size: medium;
+    
+    font-weight: 400;
+}
+.sizeForm{
+    width: 80px;
+    padding: 3px;
+    border:solid 1px rgb(162, 167, 162);
+    background-color: white;
+    overflow: hidden;
+}
+.footer{
+    width: 545px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+    margin-top: -15px;
+}
+.c{
+    border: solid black 1px ;
+    border-radius:50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.poweredby{
+    font-weight: lighter;
+    font-size: large;
+}
+.div1{
+    overflow: hidden;
+}
+
+
